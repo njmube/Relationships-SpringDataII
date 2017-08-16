@@ -24,9 +24,11 @@
 		    <span style="color:red"><form:errors path="person"/></span>
 		    <br/>
 		    
-		    <form:label path="state">State:
-	 <select>
-	<option value="AL">Alabama</option>
+	
+
+		
+		     <form:select path="state"  >
+		    	<option value="AL">Alabama</option>
 	<option value="AK">Alaska</option>
 	<option value="AZ">Arizona</option>
 	<option value="AR">Arkansas</option>
@@ -77,8 +79,7 @@
 	<option value="WV">West Virginia</option>
 	<option value="WI">Wisconsin</option>
 	<option value="WY">Wyoming</option>
-</select>				
-		    <form:input path="state"/></form:label>
+		    </form:select>
 		    <span style="color:red"><form:errors path="state"/></span>
 		    <br/>
 		    
